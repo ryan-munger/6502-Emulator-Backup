@@ -5,6 +5,10 @@ tsiraM is a virtual 6502 processor written in TypeScript and running on Node.js.
 - You become a low level ninja, creating programs in machine instructions to run on your creation! Enriching your understanding of the world below your compiler.
 - Your design and debugging skills are pushed to solve problems that will melt your brain.  You will debug machine level code you write on a machine you built!
 
+## Emulation Schematic
+- Hardware including CPU, MMU, RAM, Clock, Interrupt Controller, and I/O Devices were emulated
+![Schematic](./resources/images/architecture/6502-Schematic.jpg)
+
 ## What does tsiraM mean?
 The project needed a name, I like WebOS since this project is built on web technologies and the long term plan is to use this VM as the basis for a Operating Systems project.  In that project you will build an OS that can run on this VM.  Unfortunately, while the name WebOS makes sense for these reasons, I do not like talking to Lawyers so I have decided to use tsiraM instead.  tsiraM is something I bought the .dot com for a while ago and have not gotten around to using it for anything. If it makes no sense, keep trying, I left a clue.  The 'M' might stand for Microarchitecture, or maybe not.  I wonder if the lawyers will come anyway?  Regardless this is a good name until something better comes along.  Maybe SObeW instead?
 
